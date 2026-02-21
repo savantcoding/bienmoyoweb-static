@@ -1,0 +1,313 @@
+
+<!doctype html>
+<html>
+    <head>
+        <title>Bienmoyo Foundation</title>
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+        <link rel="shortcut icon" type="image/png" href="/static/images/favicon.png" >
+
+        <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="/static/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+        <link rel="stylesheet" type="text/css" href="/static/css/jquery.lightbox-0.5.css">
+
+        
+        <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>-->
+        <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery-ui-1.8.16.custom.min.js"></script>
+        <script type="text/javascript" src="/static/js/bienmoyo.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.lightbox-0.5.js"></script>
+        
+
+        <script type="text/javascript">
+            $(window).smartresize(function() {
+                clearTimeout(this.id);
+                this.id = setTimeout(resizeContent, 100);
+            });
+
+            $(function() {
+                bienmoyo.init();
+                $('#content a.img').lightBox();
+            })
+        </script>
+
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-26018172-1']);
+            _gaq.push(['_setDomainName', '.bienmoyo.org']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    </head>
+    <body>
+        <div id="header-bg"></div>
+        <div id="page-wrapper">
+            <div id="header">
+                <a href="/"><img id="logo" src="/static/images/logo.png" alt="Bienmoyo - A non-profit foundation for health"></a>
+                <div id="top-links">
+                    <a href="/news/twitter/" class="social-media-link"><img id="twitter-icon" alt="Bienmoyo Foundation Twitter feed" title="Follow Bienmoyo Foundation on Twitter" src="/static/images/twitter.png"></a>
+                    <a href="/news/" class="social-media-link" id="rss-shortcut"><img id="rss-icon" alt="Bienmoyo Foundation RSS feed" title="RSS Feed" src="/static/images/rss.png"></a>
+                </div>
+            </div>
+            <div id="page-content">
+                
+
+<div id="nav-wrapper">
+    <div id="nav">
+        <ul class="topnav">
+            <li class="section first inactive has-submenu">
+                <a href="/about/"><span class="icon about">About Us</span></a>
+                <ul class="submenu">
+                    <li class="first inactive">
+                        <a href="/about/philosophy/">Philosophy</a>
+                    </li>
+                     
+                    <li class="inactive"><a href="/about/collaborators/">Collaborators</a></li>
+                </ul>
+            </li>
+            <li class="section has-submenu inactive">
+                <a href="/services/"><span class="icon services">Services</span></a>
+                <ul class="submenu">
+                    <li class="inactive">
+                        <a href="/services/ncd/">NCDs</a>
+                    </li>
+                    <li class="inactive"><a href="/services/education/">Education</a></li>
+                    <li class="inactive"><a href="/services/equipment-and-supplies/">Equipment and Supplies</a></li>
+                    <li class="inactive"><a href="/services/health-planning/">Health Planning</a></li>
+                    <li class="inactive"><a href="/services/impact-assessments/">Impact Assessments</a></li>
+                </ul>
+            </li>
+            <li class="section has-submenu inactive">
+                <a href="/mmaisha/"><span class="icon laptop">mMaisha</span></a>
+                <ul class="submenu">
+                    <li class="inactive">
+                        <a href="/mmaisha/latest/">Latest activity</a>
+                    </li>
+                    <li class="first inactive"><a href="/mmaisha/from-the-field/">From the field</a></li>
+                    <!--
+                    <li class="inactive"><a href="/mmaisha/clinician/">The Clinician</a></li>
+                    <li class="inactive"><a href="/mmaisha/eforms/">eForms</a></li>
+                    <li class="inactive"><a href="/mmaisha/calendar/">Calendar</a></li>
+                    <li class="inactive"><a href="/mmaisha/sms/">SMS and Alerts</a></li>
+                    <li class="inactive"><a href="/mmaisha/reports/">Reports</a></li>
+                    -->
+                    <li class="inactive"><a href="/mmaisha/education/">mMaisha Education</a></li>
+                    <!--<li class="inactive"><a href="/mmaisha/admin/">Administration</a></li>-->
+                </ul>
+            </li>
+            <li class="section has-submenu inactive">
+                <a href="/portfolio/"><span class="icon portfolio">Portfolio</span></a>
+                <ul class="submenu">
+                    <li class="first inactive">
+                        <a href="/portfolio/mnch/">Maternal, Neonatal, Child</a>
+                    </li>
+                    <li class="inactive"><a href="/portfolio/cardiology/">Cardiology</a></li>
+                    <!--<li class="first inactive"><a href="/portfolio/malaria-hiv/">Malaria and HIV</a></li>-->
+                    <!--<li class="inactive"><a href="/portfolio/diabetes-ncd/">Diabetes, other NCDs</a></li>-->
+                    <li class="inactive"><a href="/portfolio/poc-diagnostics/">Point-of-care Diagnostics</a></li>
+                    <li class="inactive"><a href="/portfolio/private-sector/">Private Health Sector</a></li>
+                    <li class="inactive"><a href="/portfolio/training/">Training</a></li>
+                </ul>
+            </li>
+
+            <li class="section active">
+                <a href="/news/"><span class="icon news">News</span></a>
+                <ul class="submenu">
+                    <li class="inactive"><a href="/news/voices4change/">Voices4change</a></li>
+                    <li class="inactive"><a href="/news/twitter/">Twitter</a></li>
+                </ul>
+            </li>
+            <li class="section inactive">
+                <a href="/get-involved/"><span class="icon get-involved">Get Involved</span></a>
+                <ul class="submenu">
+                    <li class="inactive"><a href="/get-involved/internships/">Internships</a></li>
+                </ul>
+            </li>
+
+            <li class="section last inactive">
+                <a href="/contact/" id="contact"><span class="icon contact">Contact Us</span></a>
+            </li>
+        </ul>
+        <div id="nav-shunt"></div>
+    </div>
+</div>
+                <div id="content-wrapper">
+                    <div id="content">
+                        
+<h2 class="section first">December 2012 - Technical assistance and skill-building</h2>
+<p>
+    To ring in the New Year, Bienmoyo has partnered with another organization, <a href="http://www.techintheworld.org" class="external" target="_blank">Tech In The World</a>, to bring an inaugural team of skilled computer programmers as well as a video documentarian to Dar es Salaam, Tanzania.
+</p>
+<p>
+    Together, this short pilot program seeks to contribute several important enhancements and technical products requested by <a href="http://www.aphfta.org/" class="internal">APHFTA</a>, as well as to explore the Tanzanian ICT market and forge partnerships to strengthen local ICT capacity. Discussions with APHFTA have pinpointed several feasible and high-priority goals, including a membership database, a generic SMS-based appointment-reminder tool, as well as continued improvements to mMaisha's reporting and education modules. Our team has reached out to several local educational institutions, technology advocacy organizations, and incubators to arrange to knowledge-sharing through presentations and workshops. More detailed information on these activities and ongoing updates can be found on the <a href="http://blog.techintheworld.org/" class="external" target="_blank">Tech In The World Blog</a>.
+</p>
+
+
+<h2 class="section">July 2012 - mMaisha deployments across Tanzania</h2>
+<div class="indent center large-sized">
+    <a href="/static/images/photos/moshi-training-700.jpg" title="Training session for APHFTA members in Moshi, Tanzania (2012)" class="img">
+        <img class="bordered centered" src="/static/images/photos/moshi-training-400.jpg" alt="Training session for APHFTA members in Moshi, Tanzania (2012)" />
+    </a>
+    <p class="image-caption">Training session for APHFTA members in Moshi, Tanzania (2012)</p>
+</div>
+
+<p>
+    The Association of Private Health Facilities in Tanzania (<a href="http://www.aphfta.org/" class="internal">APHFTA</a>) has recognized innovative ICT investment as a key goal of its current 5-year strategic plan.
+    As one of several initiatives undertaken in line with this goal, APHFTA recently completed deployment of the mMaisha system to over a dozen member facilities in six regions of Tanzania (June and July of 2012).
+    These facilities are equipped with the Antenatal care-management component of mMaisha which was piloted in Dar es Salaam in 2011.
+    In addition, they will pilot the new Diabetes / HIV data management component of mMaisha to support APHFTA's programs in those areas.
+</p>
+
+<p>
+    APHFTA has invested in this first round of exceptional facilities as part of a long-term deployment plan to network the majority of its 400+ members in the next several year.
+</p>
+
+
+<div class="indent center large-sized">
+    <a href="/static/images/photos/dar-training-2-700.jpg" title="Training session for APHFTA members in Dar es Salaam, Tanzania (2012)" class="img">
+        <img class="bordered centered" src="/static/images/photos/dar-training-2-400.jpg" alt="Training session for APHFTA members in Dar es Salaam, Tanzania (2012)" />
+    </a>
+    <p class="image-caption">Training session for APHFTA members in Dar es Salaam, Tanzania (2012)</p>
+</div>
+
+
+<h2 class="section">Newsletter 2011</h2>
+<p>
+    2011 has been an exciting year for Bienmoyo. 
+    In addition to launching an mHealth platform for antenatal care, working alongside esteemed colleagues at APHFTA and in Temeke District,
+    Bienmoyo is kicking off a child-wellness and rheumatic heart disease screening program in Manyara and Arusha (see below), 
+    as well as other initiatives in online education (CME) and quality improvement.
+</p>
+<p>
+    We invite you to read our 2011 <a href="/static/files/bienmoyo-newsletter-2011.pdf" class="internal">newsletter</a> and share in our appreciation and gratitude
+    for all the opportunities and achievements that this past year has brought for our team and our dedicated local partners.
+</p>
+
+<h2 class="section">Bienmoyo Receives Health Systems Strengthening Grant from Medtronic Foundation</h2>
+<p>
+    While it has been virtually eradicated in developed countries, rheumatic heart disease (RHD) is one of the most preventable, yet prevalent, neglected NCDs of the poor, with 200,000 deaths occurring annually in Africa alone. 
+    Bienmoyo Foundation and local stakeholder partners will leverage mobile teams and the <a href="/mmaisha/" class="internal">mMaisha</a> system to help support the screening and early diagnosis of more than 6,000 school children for strep throat and signs of Rheumatic Fever or RHD,
+    as well as educational and awareness initiatives, within the Manyara and Arusha regions of Tanzania.
+    This effort will be complemented with health initiatives to ensure care for those identified with signs and symptoms.
+</p>
+<p>
+    <a class="arrow right" href="http://www.medtronic.com/about-medtronic/global-ncd-initiative/our-strategy/strengthening-health-systems/index.htm">Read more (Medtronic Foundation announcement)</a>
+</p>
+
+
+<div class="indent center large-sized">
+    <a href="/static/images/photos/mbulu-daytime-700.jpg" title="Mbulu, Manyara District" class="img">
+        <img class="bordered centered" src="/static/images/photos/mbulu-daytime-400.jpg" alt="Mbulu, Manyara District" />
+    </a>
+    <p class="image-caption">The town of Mbulu has been selected as one regional base of operations for the child-wellness and RHD screenings</p>
+</div>
+
+
+
+<h2 class="section">November 2011 - Bienmoyo eCME system launched for APHFTA</h2>
+<p>
+    The Association of Private Health Facilities in Tanzania (APHFTA), the only officially-recognized umbrella organization in Tanzania for the private health sector (with over 600 members facilities) has launched its new 5-year strategic plan for 2011 - 2015.
+    Outlined in this strategic plan, a major component of APHFTA's long-term vision is the integration of cutting-edge ICT tools to support quality-improvement and member services.
+    During APHFTA's Annual General Meeting in November 2011, Bienmoyo launched a version of the APHFTA-Bienmoyo mMaisha online Continuing Medical Education (eCME) tool kit.
+    This tool kit will provide local medical authorities a flexible and easy to use authoring tool to develop CME content and deploy through web browsers using smart phones, and netbooks, or deliver educational content through SMS text messaging.
+</p>
+
+<h2 class="section">Kenya Medical Research Institute (KEMRI) and Bienmoyo Collaborate to Strengthen Local Manufacturing of Point of Care Diagnostics and Integration of mHealth Systems</h2>
+<p>
+    The Kenya Medical Research Institute (KEMRI) Production Facility is a regional model for government-operated point-of-care (POC) diagnostic manufacturing units in East Africa.
+    The KEMRI Production Facility is the only publically-managed manufacturing facility in East Africa for diagnostic reagents and test kits.
+</p>
+<p>
+    Bienmoyo with support of USG stakeholders, worked with KEMRI to develop a strategic development plan.
+    When fully implemented, the KEMRI production unit will be in a position to generate a profit and that a portion of that profit will be returned to members of the joint venture as loan repayment (or used to cover program costs such as commodity purchases from donor partners).
+    Revenue will be generated through partnership activities with the private sector including;
+    partnerships for diagnostics research and development (R&D), mHealth systems integration for commodity tracking, partnerships for diagnostics evaluation testing, and partnerships for contract manufacturing with multinational diagnostic companies interested in developing new products, acquiring local and region regulatory approval, and reducing costs of production and distribution within sub-Saharan markets for POC diagnostics.
+    The long-term intent of the project is to lower commodity costs while increasing local technical expertise and create jobs.
+</p>
+<div class="center large-sized centered">
+    <a href="/static/images/photos/KEMRI-700.jpg" title="KEMRI planning session" class="img">
+        <img class="bordered centered" src="/static/images/photos/KEMRI-400.jpg" alt="KEMRI planning session" />
+    </a>
+    <p class="image-caption">KEMRI, the first point of care diagnostics manufacturing operation in East Africa.</p>
+</div>
+
+<h2 class="section">Case Study: Using Mobile Technology to Strengthen Health Systems and Improve Antenatal Care</h2>
+<p>
+    In Tanzania, Bienmoyo collaborated with Deloitte to test mobile health (mHealth) technologies to help address the long-standing challenge of providing effective access to healthcare for those living in resource-constrained environments.
+</p>
+<p>    
+    The MD<sup>3</sup> pilot, conducted in June-August of 2011, is the output of collaboration between Deloitte, Bienmoyo Foundation, and stakeholders from the public and private health system operating in the Temeke district of Dar es Salaam.
+</p>
+<p>
+    <a class="arrow right" href="http://www.deloitte.com/view/en_US/us/Insights/Browse-by-Content-Type/Case-Studies/US-Federal-Government-Case-Studies/99c1529f7ae60310VgnVCM3000001c56f00aRCRD.htm">Read more (Deloitte Consulting)</a>
+</p>
+
+                    </div>
+                </div>
+                <div style="clear: both;"></div>
+            </div>
+            <div id="bottom-dots"></div>
+        </div>
+        <div id="footer">
+    <div id="footer-inner">
+        <div id="copyright">
+            <p>&copy; 2005-2026</p>
+            <p>Bienmoyo Foundation</p>
+            
+            <p id="credits">
+                <span class="veryfaint">--</span>design <a href="http://lushenwu.com" class="internal">lushenwu</a><br />
+                <span class="veryfaint">--</span>production <a href="http://savantcoding.com" class="internal">philipramirez</a>
+            </p>
+        </div>
+        <div class="qlinks">
+            <div class="section">
+                <ul>
+                    <li class="header">
+                        <a href="/services/">Services</a>
+                    </li>
+                    <li><a href="/services/ncd/">NCDs</a></li>
+                    <li><a href="/services/education/">Education</a></li>
+                    <li><a href="/services/equipment-and-supplies/">Equipment and Supplies</a></li>
+                    <li><a href="/services/health-planning/">Health Planning</a></li>
+                    <li><a href="/services/impact-assessments/">Impact Assessments</a></li>
+                </ul>
+            </div>
+            <div class="section">
+                <ul>
+                    <li class="header">
+                        <a href="/portfolio/">Project Areas</a>
+                    </li>
+                    <li><a href="/portfolio/mnch/">Maternal, Neonatal and Child Health</a></li>
+                    <li><a href="/portfolio/cardiology/">Cardiology and RHD</a></li>
+                    <!--<li><a href="/portfolio/malaria-hiv/">Malaria and HIV</a></li>-->
+                    <!--<li><a href="/portfolio/diabetes-ncd/">Diabetes and NCDs</a></li>-->
+                    <li><a href="/portfolio/poc-diagnostics/">Point of Care Diagnostics</a></li>
+                    <li><a href="/portfolio/private-sector/">Private Health Sector</a></li>
+                    <li><a href="/portfolio/training/">Training</a></li>
+                    <li><a href="/get-involved/internships/">Internships</a></li>
+                </ul>
+            </div>
+            <div class="section regions last">
+                <ul>
+                    <li class="header">
+                        <a href="#">Regions</a>
+                    </li>
+                    <li class="region first">Tanzania:</li>
+                    <li><a href="#">Dar es Salaam</a></li>
+                    <li><a href="#">Manyara</a></li>
+                    <li><a href="#">Lindi</a></li>
+
+                    <li class="region">Kenya:</li>
+                    <li><a href="#">Nairobi</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+    </body>
+</html>

@@ -1,0 +1,269 @@
+
+<!doctype html>
+<html>
+    <head>
+        <title>Bienmoyo Foundation</title>
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+        <link rel="shortcut icon" type="image/png" href="/static/images/favicon.png" >
+
+        <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="/static/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+        <link rel="stylesheet" type="text/css" href="/static/css/jquery.lightbox-0.5.css">
+
+        
+
+        <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>-->
+        <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery-ui-1.8.16.custom.min.js"></script>
+        <script type="text/javascript" src="/static/js/bienmoyo.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.lightbox-0.5.js"></script>
+        
+<script type="text/javascript" src="/static/js/jquery.loupe.js"></script>
+
+
+        <script type="text/javascript">
+            $(window).smartresize(function() {
+                clearTimeout(this.id);
+                this.id = setTimeout(resizeContent, 100);
+            });
+
+            $(function() {
+                bienmoyo.init();
+                $('#content a.img').lightBox();
+            })
+        </script>
+
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-26018172-1']);
+            _gaq.push(['_setDomainName', '.bienmoyo.org']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    </head>
+    <body>
+        <div id="header-bg"></div>
+        <div id="page-wrapper">
+            <div id="header">
+                <a href="/"><img id="logo" src="/static/images/logo.png" alt="Bienmoyo - A non-profit foundation for health"></a>
+                <div id="top-links">
+                    <a href="/news/twitter/" class="social-media-link"><img id="twitter-icon" alt="Bienmoyo Foundation Twitter feed" title="Follow Bienmoyo Foundation on Twitter" src="/static/images/twitter.png"></a>
+                    <a href="/news/" class="social-media-link" id="rss-shortcut"><img id="rss-icon" alt="Bienmoyo Foundation RSS feed" title="RSS Feed" src="/static/images/rss.png"></a>
+                </div>
+            </div>
+            <div id="page-content">
+                
+
+<div id="nav-wrapper">
+    <div id="nav">
+        <ul class="topnav">
+            <li class="section first inactive has-submenu">
+                <a href="/about/"><span class="icon about">About Us</span></a>
+                <ul class="submenu">
+                    <li class="first inactive">
+                        <a href="/about/philosophy/">Philosophy</a>
+                    </li>
+                     
+                    <li class="inactive"><a href="/about/collaborators/">Collaborators</a></li>
+                </ul>
+            </li>
+            <li class="section has-submenu inactive">
+                <a href="/services/"><span class="icon services">Services</span></a>
+                <ul class="submenu">
+                    <li class="inactive">
+                        <a href="/services/ncd/">NCDs</a>
+                    </li>
+                    <li class="inactive"><a href="/services/education/">Education</a></li>
+                    <li class="inactive"><a href="/services/equipment-and-supplies/">Equipment and Supplies</a></li>
+                    <li class="inactive"><a href="/services/health-planning/">Health Planning</a></li>
+                    <li class="inactive"><a href="/services/impact-assessments/">Impact Assessments</a></li>
+                </ul>
+            </li>
+            <li class="section has-submenu active">
+                <a href="/mmaisha/"><span class="icon laptop">mMaisha</span></a>
+                <ul class="submenu">
+                    <li class="inactive">
+                        <a href="/mmaisha/latest/">Latest activity</a>
+                    </li>
+                    <li class="first inactive"><a href="/mmaisha/from-the-field/">From the field</a></li>
+                    <!--
+                    <li class="inactive"><a href="/mmaisha/clinician/">The Clinician</a></li>
+                    <li class="inactive"><a href="/mmaisha/eforms/">eForms</a></li>
+                    <li class="inactive"><a href="/mmaisha/calendar/">Calendar</a></li>
+                    <li class="inactive"><a href="/mmaisha/sms/">SMS and Alerts</a></li>
+                    <li class="inactive"><a href="/mmaisha/reports/">Reports</a></li>
+                    -->
+                    <li class="active"><a href="/mmaisha/education/">mMaisha Education</a></li>
+                    <!--<li class="inactive"><a href="/mmaisha/admin/">Administration</a></li>-->
+                </ul>
+            </li>
+            <li class="section has-submenu inactive">
+                <a href="/portfolio/"><span class="icon portfolio">Portfolio</span></a>
+                <ul class="submenu">
+                    <li class="first inactive">
+                        <a href="/portfolio/mnch/">Maternal, Neonatal, Child</a>
+                    </li>
+                    <li class="inactive"><a href="/portfolio/cardiology/">Cardiology</a></li>
+                    <!--<li class="first inactive"><a href="/portfolio/malaria-hiv/">Malaria and HIV</a></li>-->
+                    <!--<li class="inactive"><a href="/portfolio/diabetes-ncd/">Diabetes, other NCDs</a></li>-->
+                    <li class="inactive"><a href="/portfolio/poc-diagnostics/">Point-of-care Diagnostics</a></li>
+                    <li class="inactive"><a href="/portfolio/private-sector/">Private Health Sector</a></li>
+                    <li class="inactive"><a href="/portfolio/training/">Training</a></li>
+                </ul>
+            </li>
+
+            <li class="section inactive">
+                <a href="/news/"><span class="icon news">News</span></a>
+                <ul class="submenu">
+                    <li class="inactive"><a href="/news/voices4change/">Voices4change</a></li>
+                    <li class="inactive"><a href="/news/twitter/">Twitter</a></li>
+                </ul>
+            </li>
+            <li class="section inactive">
+                <a href="/get-involved/"><span class="icon get-involved">Get Involved</span></a>
+                <ul class="submenu">
+                    <li class="inactive"><a href="/get-involved/internships/">Internships</a></li>
+                </ul>
+            </li>
+
+            <li class="section last inactive">
+                <a href="/contact/" id="contact"><span class="icon contact">Contact Us</span></a>
+            </li>
+        </ul>
+        <div id="nav-shunt"></div>
+    </div>
+</div>
+                <div id="content-wrapper">
+                    <div id="content">
+                        
+<h2 class="section first">Online Interactive Education</h2>
+<p>
+    The mMaisha platform features an Education module, which is currently deployed in the areas of <a class="internal" href="#">antenatal care</a>, <a class="internal" href="#">Rheumatic Heart Disease</a>, Diabetes, and <a class="internal" href="#">business practices</a> for private clinics.
+</p>
+
+<p>
+    The structure of mMaisha courses is slide-based, and features:
+</p>
+<ul class="bulleted primary">
+    <li>An optional mini-quiz at the end of each slide</li>
+    <li>Course summary upon completion, and automatic accreditation to the user's record, if logged in</li>
+    <li>Upcoming support for audio voice-overs and video content</li>
+</ul>
+
+<p>
+    <a href="/static/images/tour/cme-course-quiz.png" title="Optional mini-quiz at the end of each slides helps reinforce learned content" class="img">
+        <img class="screen" src="/static/images/tour/cme-course-quiz.png" />
+    </a>
+</p>
+
+<p>
+    Maisha Education courses use a simple XML format, and Bienmoyo provides a free companion authoring tool to create and edit Maisha courses within a browser interface:
+</p>
+
+<ul class="bulleted primary">
+    <li>Allows easy-to-use creation and editing of interactive, slide-based courses</li>
+    <li>Rich text: supports typing or pasting of text content for each slide and formatting into paragraphs / bullet points </li>
+    <li>Quiz the user: add an optional question to each slide and specify correct/incorrect answers</li>
+</ul>
+
+<p>
+    <a href="/static/images/tour/cme-edit.png" title="Effortlessly compile text, images, and add quiz questions to package an interactive online course" class="img">
+        <img class="screen" src="/static/images/tour/cme-edit.png" />
+    </a>
+</p>
+
+<h2 class="section" id="edudevelopment">Maisha Platform Demo</h2>
+<p>
+    To arrange a demo of Bienmoyo's online education platform, please <a class="internal" href="/contact/">contact us here</a>.
+</p>
+
+<script type="text/javascript">
+    $(function(){
+        $('.screen').loupe({
+            width: 400, // width of magnifier
+            height: 290, // height of magnifier
+            loupe: 'loupe', // css class for magnifier
+            mouseover: function(){
+                $('div#nav').stop(true).fadeTo(1000, 0.3);
+                $('div#content').find('h1, h2, p, div, ul').stop(true).fadeTo(0, 0.3);
+
+            },
+            mouseout: function(){
+                $('div#nav').stop(true).fadeTo(500, 1);
+                $('div#content').find('h1, h2, p, div, ul').stop(true).fadeTo(500, 1);
+            }
+        });
+    })
+</script>
+
+
+                    </div>
+                </div>
+                <div style="clear: both;"></div>
+            </div>
+            <div id="bottom-dots"></div>
+        </div>
+        <div id="footer">
+    <div id="footer-inner">
+        <div id="copyright">
+            <p>&copy; 2005-2026</p>
+            <p>Bienmoyo Foundation</p>
+            
+            <p id="credits">
+                <span class="veryfaint">--</span>design <a href="http://lushenwu.com" class="internal">lushenwu</a><br />
+                <span class="veryfaint">--</span>production <a href="http://savantcoding.com" class="internal">philipramirez</a>
+            </p>
+        </div>
+        <div class="qlinks">
+            <div class="section">
+                <ul>
+                    <li class="header">
+                        <a href="/services/">Services</a>
+                    </li>
+                    <li><a href="/services/ncd/">NCDs</a></li>
+                    <li><a href="/services/education/">Education</a></li>
+                    <li><a href="/services/equipment-and-supplies/">Equipment and Supplies</a></li>
+                    <li><a href="/services/health-planning/">Health Planning</a></li>
+                    <li><a href="/services/impact-assessments/">Impact Assessments</a></li>
+                </ul>
+            </div>
+            <div class="section">
+                <ul>
+                    <li class="header">
+                        <a href="/portfolio/">Project Areas</a>
+                    </li>
+                    <li><a href="/portfolio/mnch/">Maternal, Neonatal and Child Health</a></li>
+                    <li><a href="/portfolio/cardiology/">Cardiology and RHD</a></li>
+                    <!--<li><a href="/portfolio/malaria-hiv/">Malaria and HIV</a></li>-->
+                    <!--<li><a href="/portfolio/diabetes-ncd/">Diabetes and NCDs</a></li>-->
+                    <li><a href="/portfolio/poc-diagnostics/">Point of Care Diagnostics</a></li>
+                    <li><a href="/portfolio/private-sector/">Private Health Sector</a></li>
+                    <li><a href="/portfolio/training/">Training</a></li>
+                    <li><a href="/get-involved/internships/">Internships</a></li>
+                </ul>
+            </div>
+            <div class="section regions last">
+                <ul>
+                    <li class="header">
+                        <a href="#">Regions</a>
+                    </li>
+                    <li class="region first">Tanzania:</li>
+                    <li><a href="#">Dar es Salaam</a></li>
+                    <li><a href="#">Manyara</a></li>
+                    <li><a href="#">Lindi</a></li>
+
+                    <li class="region">Kenya:</li>
+                    <li><a href="#">Nairobi</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+    </body>
+</html>

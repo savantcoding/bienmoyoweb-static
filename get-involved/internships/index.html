@@ -1,0 +1,351 @@
+
+<!doctype html>
+<html>
+    <head>
+        <title>Bienmoyo Foundation</title>
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+        <link rel="shortcut icon" type="image/png" href="/static/images/favicon.png" >
+
+        <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="/static/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+        <link rel="stylesheet" type="text/css" href="/static/css/jquery.lightbox-0.5.css">
+
+        
+        <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>-->
+        <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery-ui-1.8.16.custom.min.js"></script>
+        <script type="text/javascript" src="/static/js/bienmoyo.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.lightbox-0.5.js"></script>
+        
+
+        <script type="text/javascript">
+            $(window).smartresize(function() {
+                clearTimeout(this.id);
+                this.id = setTimeout(resizeContent, 100);
+            });
+
+            $(function() {
+                bienmoyo.init();
+                $('#content a.img').lightBox();
+            })
+        </script>
+
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-26018172-1']);
+            _gaq.push(['_setDomainName', '.bienmoyo.org']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    </head>
+    <body>
+        <div id="header-bg"></div>
+        <div id="page-wrapper">
+            <div id="header">
+                <a href="/"><img id="logo" src="/static/images/logo.png" alt="Bienmoyo - A non-profit foundation for health"></a>
+                <div id="top-links">
+                    <a href="/news/twitter/" class="social-media-link"><img id="twitter-icon" alt="Bienmoyo Foundation Twitter feed" title="Follow Bienmoyo Foundation on Twitter" src="/static/images/twitter.png"></a>
+                    <a href="/news/" class="social-media-link" id="rss-shortcut"><img id="rss-icon" alt="Bienmoyo Foundation RSS feed" title="RSS Feed" src="/static/images/rss.png"></a>
+                </div>
+            </div>
+            <div id="page-content">
+                
+
+<div id="nav-wrapper">
+    <div id="nav">
+        <ul class="topnav">
+            <li class="section first inactive has-submenu">
+                <a href="/about/"><span class="icon about">About Us</span></a>
+                <ul class="submenu">
+                    <li class="first inactive">
+                        <a href="/about/philosophy/">Philosophy</a>
+                    </li>
+                     
+                    <li class="inactive"><a href="/about/collaborators/">Collaborators</a></li>
+                </ul>
+            </li>
+            <li class="section has-submenu inactive">
+                <a href="/services/"><span class="icon services">Services</span></a>
+                <ul class="submenu">
+                    <li class="inactive">
+                        <a href="/services/ncd/">NCDs</a>
+                    </li>
+                    <li class="inactive"><a href="/services/education/">Education</a></li>
+                    <li class="inactive"><a href="/services/equipment-and-supplies/">Equipment and Supplies</a></li>
+                    <li class="inactive"><a href="/services/health-planning/">Health Planning</a></li>
+                    <li class="inactive"><a href="/services/impact-assessments/">Impact Assessments</a></li>
+                </ul>
+            </li>
+            <li class="section has-submenu inactive">
+                <a href="/mmaisha/"><span class="icon laptop">mMaisha</span></a>
+                <ul class="submenu">
+                    <li class="inactive">
+                        <a href="/mmaisha/latest/">Latest activity</a>
+                    </li>
+                    <li class="first inactive"><a href="/mmaisha/from-the-field/">From the field</a></li>
+                    <!--
+                    <li class="inactive"><a href="/mmaisha/clinician/">The Clinician</a></li>
+                    <li class="inactive"><a href="/mmaisha/eforms/">eForms</a></li>
+                    <li class="inactive"><a href="/mmaisha/calendar/">Calendar</a></li>
+                    <li class="inactive"><a href="/mmaisha/sms/">SMS and Alerts</a></li>
+                    <li class="inactive"><a href="/mmaisha/reports/">Reports</a></li>
+                    -->
+                    <li class="inactive"><a href="/mmaisha/education/">mMaisha Education</a></li>
+                    <!--<li class="inactive"><a href="/mmaisha/admin/">Administration</a></li>-->
+                </ul>
+            </li>
+            <li class="section has-submenu inactive">
+                <a href="/portfolio/"><span class="icon portfolio">Portfolio</span></a>
+                <ul class="submenu">
+                    <li class="first inactive">
+                        <a href="/portfolio/mnch/">Maternal, Neonatal, Child</a>
+                    </li>
+                    <li class="inactive"><a href="/portfolio/cardiology/">Cardiology</a></li>
+                    <!--<li class="first inactive"><a href="/portfolio/malaria-hiv/">Malaria and HIV</a></li>-->
+                    <!--<li class="inactive"><a href="/portfolio/diabetes-ncd/">Diabetes, other NCDs</a></li>-->
+                    <li class="inactive"><a href="/portfolio/poc-diagnostics/">Point-of-care Diagnostics</a></li>
+                    <li class="inactive"><a href="/portfolio/private-sector/">Private Health Sector</a></li>
+                    <li class="inactive"><a href="/portfolio/training/">Training</a></li>
+                </ul>
+            </li>
+
+            <li class="section inactive">
+                <a href="/news/"><span class="icon news">News</span></a>
+                <ul class="submenu">
+                    <li class="inactive"><a href="/news/voices4change/">Voices4change</a></li>
+                    <li class="inactive"><a href="/news/twitter/">Twitter</a></li>
+                </ul>
+            </li>
+            <li class="section active">
+                <a href="/get-involved/"><span class="icon get-involved">Get Involved</span></a>
+                <ul class="submenu">
+                    <li class="active"><a href="/get-involved/internships/">Internships</a></li>
+                </ul>
+            </li>
+
+            <li class="section last inactive">
+                <a href="/contact/" id="contact"><span class="icon contact">Contact Us</span></a>
+            </li>
+        </ul>
+        <div id="nav-shunt"></div>
+    </div>
+</div>
+                <div id="content-wrapper">
+                    <div id="content">
+                        
+<h1 class="section first">Internships</h1>
+<p>
+    Over the past 6 years Bienmoyo Foundation has helped place graduate and undergraduate students
+    from Wharton, Harvard and MIT in the field in Tanzania.
+    In 2008, Dr. Blander developed the Harvard Global Health Innovation Sandbox Program for undergraduate students.
+    This program is called an innovation "sandbox" because it involves free-form problem solving and exploration
+    with local stakeholders to develop interventions that address neglected health care problems.
+    Dr. Blander has also supported as a lecturer at Harvard and MIT dozens of more students and young alumni
+    to work in other countries that include Rwanda, Ecuador, and Sri Lanka.
+    Students who have participated in these programs have gone on to organizations such as Medtronic and McKinsey,
+    and are pursuing graduate studies at Harvard Medical School, Harvard School of Education, Columbia School of Medicine,
+    and Johns Hopkins School of Public Health.
+</p>
+<p>
+    Past interns have contributed to programs such as operations at Muhimbili National Hospital
+    in Dar es Salaam and nation-wide business training and
+    quality improvement efforts for <a class="internal" href="/about/collaborators/#aphfta">APHFTA</a>.
+</p>
+
+<h1>Harvard College Sandbox - 2012 Team</h1>
+<div class="bio">
+    <h3 class="section">Michelle Ferreol</h3>
+    <p>
+        <img src="/static/images/interns/michi.ferreol.jpg" alt="photo of Michelle Ferreol" class="float-left bordered" />
+        Michi Ferreol is a sophomore at Harvard College,
+        where she plans to major in Sociology with a minor in Global Health.
+        After spending some time doing medical field work and shadowing doctors in the Philippines,
+        her home country, Michi developed an interest for studying both the private and public health sectors
+        in developing countries. Her experience at <a class="internal" href="/about/collaborators/#aphfta">APHFTA</a> helped give her greater first-hand experience
+        in this field and has motivated her more to do health-related work.
+        She thanks APHFTA and all its kind, brilliant people for all their encouragement and hospitality!
+    </p>
+    <h3 class="section">Sabrina Ghouse</h3>
+    <p>
+        <img src="/static/images/interns/sabrina.ghouse.jpg" alt="photo of Sabrina Ghouse" class="float-left bordered" />
+        Sabrina Ghouse is a sophomore at Harvard, studying Social Studies, as well as Environmental Science and Public Policy.
+        She was born and raised in Sri Lanka, but has lived abroad throughout much of her upbringing.
+        She plans to study and become involved in the economic and social development of less developed countries.
+        Sabrina spent her freshman winter term in Jaozuo, China through Harvard China Care, prior to working with Bienmoyo and <a class="internal" href="/about/collaborators/#aphfta">APHFTA</a>.
+        She is grateful for the unique perspective into international development in a new cultural setting that she gained through this work in Tanzania.
+    </p>
+    
+    <h3 class="section">Tri Huynh</h3>
+    <p>
+        <img src="/static/images/interns/tri.huynh.jpg" alt="photo of Tri Huynh" class="float-left bordered" />
+        Tri Huynh is currently a senior majoring in molecular and cellular biology at Harvard University while pursuing a minor in 
+        global health and health policy. Having had a tough secondary school experience, Tri realizes that the disparity in education 
+        facing the next generation of youth in America and elsewhere is unacceptable. He plans to go to graduate school in education 
+        and learn about fair and equal curriculum development for people from all socioeconomic backgrounds. 
+        His teaching experience with <a class="internal" href="/about/collaborators/#aphfta">APHFTA</a> truly helped develop skills he will need for his future as an educator. 
+    </p>
+    
+
+    <h3 class="section">Ishani Premaratne</h3>
+    <p>
+        <img src="/static/images/interns/ishani.premaratne.jpg" alt="photo of Ishani Premaratne" class="float-left bordered" />
+        Ishani is a sophomore at Harvard studying Medical Anthropology with a minor in Global Health and Health Policy. 
+        She is a global health enthusiast with a special interest in social innovation and its potential to bring change 
+        in the outmoded and inefficient healthcare systems of the world. Ishani is of Sri Lankan heritage and is especially motivated 
+        to return to the country of her roots and help address some of the population's most pressing health concerns.  
+        Outside of the classroom, she is an avid figure skater and a lover of books, scrapbooking and writing for a blog called 
+        Seeing I to I, which she founded with her twin sister. Ishani is incredibly thankful for her two month internship experience 
+        in Tanzania, which was made possible by the wonderful people at <a class="internal" href="/about/collaborators/#aphfta">APHFTA</a>.
+    </p>
+    
+    <!--
+    <h3 class="section">Kyra Atekwana</h3>
+    <p>
+        <img src="/static/images/interns/kyra.atekwana.jpg" alt="photo of Kyra Atekwana" class="float-left bordered" />
+
+    </p>
+    -->
+</div>
+
+<h1>Harvard College Sandbox - 2011 Team</h1>
+<div class="bio">
+    <h3 class="section">Ryan Christ</h3>
+    <p>
+        <img src="/static/images/interns/ryan.christ.jpg" alt="photo of Ryan Christ" class="float-left bordered" />
+        Ryan Christ is a Harvard undergraduate from a small American town near the Atlantic
+        coast. He is working towards a Bachelors degree in Applied Mathematics
+        and currently studying the genetics of Alzheimer's disease in the Feany Lab
+        at Harvard Medical School. Several related interests have drawn him to
+        APHFTA's quality improvement internship: the impact of culture on the
+        treatment of mental disorders and dementia in Tanzania, modeling the
+        spread of infectious disease, and understanding the impact of clinic quality
+        on population health.
+    </p>
+    
+    <h3 class="section">Akanksha Sharma</h3>
+    <p>
+        <img src="/static/images/interns/akanksha.sharma.jpg" alt="photo of Akanksha Sharma" class="float-left bordered" />
+        Akanksha Sharma is a freshman at Harvard. She was born in Mumbai,
+        but grew up in Dubai, Bahrain, and the United States. She currently calls
+        Copenhagen, Denmark home. She plans to go to medical school, but she
+        wants to study a variety of things, especially the History of Science and
+        Sociology. She was drawn to this opportunity with APHFTA because it allows
+        a unique perspective into health care and Tanzanian culture.
+    </p>
+    
+    <h3 class="section">Justin Mathews</h3>
+    <p>
+        <img src="/static/images/interns/justin.mathews.jpg" alt="photo of Justin Mathew" class="float-left bordered" />
+        Justin Mathews is a freshman at Harvard College. He hails from West Nyack,
+        New York and is pursuing a degree in Neurobiology. He has
+        long been interested in global health care, particularly comparative studies between
+        the healthy and infirm in Tanzania, and is excited to be working with
+        APHFTA in Tanzania.
+    </p>
+    
+    <h3 class="section">Susan Overall</h3>
+    <p>
+        <img src="/static/images/interns/susan.overall.jpg" alt="photo of Susan Overall" class="float-left bordered" />
+        Susan Overall is a freshman at Harvard College. She grew up on the beach
+        in Sydney, Australia. She is currently planning to study Economics with a
+        minor in Global Health Policy. Her interest in heath care in Africa began
+        with her involvement with the One Girl organization, where her work focused on female sanitary health issues.
+        <br /><br />
+    </p>
+
+    <h3 class="section">Homan Mohammadi</h3>
+    <p>
+        <img src="/static/images/interns/homan.mohammadi.png" alt="photo of Homan Mohammadi" class="float-left bordered" />
+        Homan Mohammadi is a sophomore at Harvard College pursuing a degree in neurobiology.
+        He was born in Ottawa, Canada, but lived in Iran for 11 years before returning back to Canada.
+        He is fascinated by healthcare and its capacity to improve people's lives, particularly in a developmental context.
+    </p>
+
+    <h3 class="section">Sydney Green</h3>
+    <p>
+        <img src="/static/images/interns/sydney.green.jpg" alt="photo of Sydney Green" class="float-left bordered" />
+        Sydney is thrilled to have the chance to see the inner-workings of an international NGO/non-profit in the health sector.
+        She is an aspiring physician and hopes to work in low-income communities domestically and/or abroad.
+        She was particularly fascinated by the burgeoning private health sector in Tanzania,
+        and has taken home lessons which she hopes to apply in her future work.
+    </p>
+
+    <h3 class="section">Devi Lockwood</h3>
+    <p>
+        <img src="/static/images/interns/devi.lockwood.jpg" alt="photo of Devi Lockwood" class="float-left bordered" />
+        Devi Lockwood is a sophomore Folklore & Mythology major at Harvard.
+        While in Tanzania she helped document the stories of private health care workers with the Voices4Change team.
+        The best part of the summer? Learning the art of bartering for bananas in Swahili and befriending/joining a group of Tanzanians in Dar who play beach soccer every night at sunset.
+    </p>
+</div>
+
+                    </div>
+                </div>
+                <div style="clear: both;"></div>
+            </div>
+            <div id="bottom-dots"></div>
+        </div>
+        <div id="footer">
+    <div id="footer-inner">
+        <div id="copyright">
+            <p>&copy; 2005-2026</p>
+            <p>Bienmoyo Foundation</p>
+            
+            <p id="credits">
+                <span class="veryfaint">--</span>design <a href="http://lushenwu.com" class="internal">lushenwu</a><br />
+                <span class="veryfaint">--</span>production <a href="http://savantcoding.com" class="internal">philipramirez</a>
+            </p>
+        </div>
+        <div class="qlinks">
+            <div class="section">
+                <ul>
+                    <li class="header">
+                        <a href="/services/">Services</a>
+                    </li>
+                    <li><a href="/services/ncd/">NCDs</a></li>
+                    <li><a href="/services/education/">Education</a></li>
+                    <li><a href="/services/equipment-and-supplies/">Equipment and Supplies</a></li>
+                    <li><a href="/services/health-planning/">Health Planning</a></li>
+                    <li><a href="/services/impact-assessments/">Impact Assessments</a></li>
+                </ul>
+            </div>
+            <div class="section">
+                <ul>
+                    <li class="header">
+                        <a href="/portfolio/">Project Areas</a>
+                    </li>
+                    <li><a href="/portfolio/mnch/">Maternal, Neonatal and Child Health</a></li>
+                    <li><a href="/portfolio/cardiology/">Cardiology and RHD</a></li>
+                    <!--<li><a href="/portfolio/malaria-hiv/">Malaria and HIV</a></li>-->
+                    <!--<li><a href="/portfolio/diabetes-ncd/">Diabetes and NCDs</a></li>-->
+                    <li><a href="/portfolio/poc-diagnostics/">Point of Care Diagnostics</a></li>
+                    <li><a href="/portfolio/private-sector/">Private Health Sector</a></li>
+                    <li><a href="/portfolio/training/">Training</a></li>
+                    <li><a href="/get-involved/internships/">Internships</a></li>
+                </ul>
+            </div>
+            <div class="section regions last">
+                <ul>
+                    <li class="header">
+                        <a href="#">Regions</a>
+                    </li>
+                    <li class="region first">Tanzania:</li>
+                    <li><a href="#">Dar es Salaam</a></li>
+                    <li><a href="#">Manyara</a></li>
+                    <li><a href="#">Lindi</a></li>
+
+                    <li class="region">Kenya:</li>
+                    <li><a href="#">Nairobi</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+    </body>
+</html>

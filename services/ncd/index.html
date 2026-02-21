@@ -1,0 +1,344 @@
+
+<!doctype html>
+<html>
+    <head>
+        <title>Bienmoyo Foundation</title>
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+        <link rel="shortcut icon" type="image/png" href="/static/images/favicon.png" >
+
+        <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="/static/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+        <link rel="stylesheet" type="text/css" href="/static/css/jquery.lightbox-0.5.css">
+
+        
+        <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>-->
+        <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery-ui-1.8.16.custom.min.js"></script>
+        <script type="text/javascript" src="/static/js/bienmoyo.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.lightbox-0.5.js"></script>
+        
+
+        <script type="text/javascript">
+            $(window).smartresize(function() {
+                clearTimeout(this.id);
+                this.id = setTimeout(resizeContent, 100);
+            });
+
+            $(function() {
+                bienmoyo.init();
+                $('#content a.img').lightBox();
+            })
+        </script>
+
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-26018172-1']);
+            _gaq.push(['_setDomainName', '.bienmoyo.org']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    </head>
+    <body>
+        <div id="header-bg"></div>
+        <div id="page-wrapper">
+            <div id="header">
+                <a href="/"><img id="logo" src="/static/images/logo.png" alt="Bienmoyo - A non-profit foundation for health"></a>
+                <div id="top-links">
+                    <a href="/news/twitter/" class="social-media-link"><img id="twitter-icon" alt="Bienmoyo Foundation Twitter feed" title="Follow Bienmoyo Foundation on Twitter" src="/static/images/twitter.png"></a>
+                    <a href="/news/" class="social-media-link" id="rss-shortcut"><img id="rss-icon" alt="Bienmoyo Foundation RSS feed" title="RSS Feed" src="/static/images/rss.png"></a>
+                </div>
+            </div>
+            <div id="page-content">
+                
+
+<div id="nav-wrapper">
+    <div id="nav">
+        <ul class="topnav">
+            <li class="section first inactive has-submenu">
+                <a href="/about/"><span class="icon about">About Us</span></a>
+                <ul class="submenu">
+                    <li class="first inactive">
+                        <a href="/about/philosophy/">Philosophy</a>
+                    </li>
+                     
+                    <li class="inactive"><a href="/about/collaborators/">Collaborators</a></li>
+                </ul>
+            </li>
+            <li class="section has-submenu active">
+                <a href="/services/"><span class="icon services">Services</span></a>
+                <ul class="submenu">
+                    <li class="active">
+                        <a href="/services/ncd/">NCDs</a>
+                    </li>
+                    <li class="inactive"><a href="/services/education/">Education</a></li>
+                    <li class="inactive"><a href="/services/equipment-and-supplies/">Equipment and Supplies</a></li>
+                    <li class="inactive"><a href="/services/health-planning/">Health Planning</a></li>
+                    <li class="inactive"><a href="/services/impact-assessments/">Impact Assessments</a></li>
+                </ul>
+            </li>
+            <li class="section has-submenu inactive">
+                <a href="/mmaisha/"><span class="icon laptop">mMaisha</span></a>
+                <ul class="submenu">
+                    <li class="inactive">
+                        <a href="/mmaisha/latest/">Latest activity</a>
+                    </li>
+                    <li class="first inactive"><a href="/mmaisha/from-the-field/">From the field</a></li>
+                    <!--
+                    <li class="inactive"><a href="/mmaisha/clinician/">The Clinician</a></li>
+                    <li class="inactive"><a href="/mmaisha/eforms/">eForms</a></li>
+                    <li class="inactive"><a href="/mmaisha/calendar/">Calendar</a></li>
+                    <li class="inactive"><a href="/mmaisha/sms/">SMS and Alerts</a></li>
+                    <li class="inactive"><a href="/mmaisha/reports/">Reports</a></li>
+                    -->
+                    <li class="inactive"><a href="/mmaisha/education/">mMaisha Education</a></li>
+                    <!--<li class="inactive"><a href="/mmaisha/admin/">Administration</a></li>-->
+                </ul>
+            </li>
+            <li class="section has-submenu inactive">
+                <a href="/portfolio/"><span class="icon portfolio">Portfolio</span></a>
+                <ul class="submenu">
+                    <li class="first inactive">
+                        <a href="/portfolio/mnch/">Maternal, Neonatal, Child</a>
+                    </li>
+                    <li class="inactive"><a href="/portfolio/cardiology/">Cardiology</a></li>
+                    <!--<li class="first inactive"><a href="/portfolio/malaria-hiv/">Malaria and HIV</a></li>-->
+                    <!--<li class="inactive"><a href="/portfolio/diabetes-ncd/">Diabetes, other NCDs</a></li>-->
+                    <li class="inactive"><a href="/portfolio/poc-diagnostics/">Point-of-care Diagnostics</a></li>
+                    <li class="inactive"><a href="/portfolio/private-sector/">Private Health Sector</a></li>
+                    <li class="inactive"><a href="/portfolio/training/">Training</a></li>
+                </ul>
+            </li>
+
+            <li class="section inactive">
+                <a href="/news/"><span class="icon news">News</span></a>
+                <ul class="submenu">
+                    <li class="inactive"><a href="/news/voices4change/">Voices4change</a></li>
+                    <li class="inactive"><a href="/news/twitter/">Twitter</a></li>
+                </ul>
+            </li>
+            <li class="section inactive">
+                <a href="/get-involved/"><span class="icon get-involved">Get Involved</span></a>
+                <ul class="submenu">
+                    <li class="inactive"><a href="/get-involved/internships/">Internships</a></li>
+                </ul>
+            </li>
+
+            <li class="section last inactive">
+                <a href="/contact/" id="contact"><span class="icon contact">Contact Us</span></a>
+            </li>
+        </ul>
+        <div id="nav-shunt"></div>
+    </div>
+</div>
+                <div id="content-wrapper">
+                    <div id="content">
+                        
+<h2 class="section first" id="rhd">Rheumatic Heart Disease</h2>
+<p>
+    Rheumatic heart disease (RHD) represents an interesting intersection of NCDs, infectious disease, and child health.
+    Although rheumatic fever and RHD are chronic and non-communicable conditions, they are a consequence of untreated infection by Strep-A bacteria, which usually occurs in childhood (ages 5-13).
+    One ongoing challenge in treating RHD is raising awareness among teachers, parents, and clinicians to make the connection of how a seemingly commonplace upper-respiratory tract infection like Strep-A can later lead to a chronic heart condition requiring surgery.
+</p>
+<p>
+    <iframe width="460" height="259" src="http://www.youtube.com/embed/xIfIDs8E6ZY" frameborder="0" allowfullscreen></iframe>
+</p>
+<p>
+    To meet this challenge, in addition to traditional education approaches (training sessions) and mobile-health approaches (SMS outreach to parents),
+    Bienmoyo worked with <a href="http://www.daniellewilliamsmusic.com/" target="_blank" class="external">Danielle Williams</a> at <a href="http://www.umoja-arts.com/" target="_blank" class="external">Umoja Arts Centre</a> in Arusha 
+    to compose a simple and memorable song for school children to learn. The song was then taught in primary schools as well as broadcast over national radio.
+</p>
+<p>
+    We invite you to watch our video above (or listen to the <a href="#song" class="scroll internal">song</a> by itself).
+    You can also load the HD version of the video <a href="http://youtu.be/xIfIDs8E6ZY" target="_blank" class="external">here</a>
+</p>
+
+<h2 class="sectiont" id="song">Strep-A and RHD Awareness Song</h2>
+<table class="song centered">
+    <tr>
+        <td></td>
+        <td style="padding-top: 10px;">
+            <object type="application/x-shockwave-flash" data="/static/dewplayer-mini.swf" width="160" height="20" id="dewplayer" name="dewplayer">
+                <param name="wmode" value="transparent" />
+                <param name="movie" value="/static/dewplayer-mini.swf" />
+                <param name="flashvars" value="mp3=/static/rhd-song-studio.mp3&amp;showtime=1" />
+            </object>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            A:
+        </td>
+        <td>
+            <span>I'm having sore throat</span>
+            <br />
+            <span class="grey">Ninaumwa homa na koo</span>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            B:
+        </td>
+        <td>
+            <span>Aaaahh, look at your heart</span>
+            <br />
+            <span class="grey">Aaahh, angalia moyo wako</span>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            A:
+        </td>
+        <td>
+            <span>I've got pain when swallowing</span>
+            <br />
+            <span class="grey">Napata maumivu nikimeza</span>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            B:
+        </td>
+        <td>
+            <span>Aaahh, think of your heart</span>
+            <br />
+            <span class="grey">Aaahh, fikiria moyo wako</span>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            A:
+        </td>
+        <td>
+            <span>I've got joint swelling and fever</span>
+            <br />
+            <span class="grey">Nimevimba viungo, nina homa</span>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            B:
+        </td>
+        <td>
+            <span>Aaahh, examine your heart</span>
+            <br />
+            <span class="grey">Aaahh, chunguza moyo wako</span>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            A + B:
+        </td>
+        <td>
+            <span>Now that I know all this ...</span>
+            <br />
+            <span class="grey">Sasa najua, sasa najua</span>
+            <br />
+            <span class="grey">sasa najua haya yote</span>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            A + B:
+        </td>
+        <td>
+            <span>I will have a strong heart</span>
+            <br />
+            <span class="grey">Sasa najua, na nitakuwa</span>
+            <br />
+            <span class="grey">na moyo wenye nguvu</span>
+        </td>
+    </tr>
+</table>
+
+<p>
+    Credits: Words developed by Professor Peter Mhando of Kam-medconsult, Arusha, Tanzania. Song composed by and &copy; <a href="http://www.daniellewilliamsmusic.com/" target="_blank" class="external">Danielle Williams</a>.
+</p>
+
+
+<h2 class="section first" id="ncds">Non-communicable Diseases</h2>
+<p>
+    Bienmoyo recognizes that assessing the burden of illness associated with infectious as well as chronic diseases is critical to delivering targeted services to ensure the well being of persons seeking medical attention. An understanding of burden of illness within a population helps partners allocate scare resources and develop programs to maximize impact on wellness and quality of life for clients.
+</p>
+<ul class="bulleted primary">
+    <li>While many treatment programs and wellness impact assessments for conditions caused by infectious diseases such as HIV/AIDS, TB, and Malaria exist, Bienmoyo specializes in the design of wellness management programs and impact assessments on less well understood and examined chronic conditions in resource poor settings such as diabetes, cancer, rheumatic heart disease, and ESRD.</li>
+</ul>
+
+<div class="center large-sized centered">
+    <a href="/static/images/photos/aphfta-bike-700.jpg" title="Dr. Rainer and Dr. Mwita in Lindia, Tanzania, prepare for cardiovascular screening" class="img">
+        <img class="bordered centered" src="/static/images/photos/aphfta-bike-400.jpg" alt="Dr. Rainer and Dr. Mwita in Lindia, Tanzania, prepare for cardiovascular screening" />
+    </a>
+    <p class="image-caption">Dr. Rainer and Dr. Mwita in Lindi, Tanzania, prepare APHFTA bicycle transport for essential medicines and laboratory specimens for cardiovascular screening</p>
+</div>
+
+
+
+                    </div>
+                </div>
+                <div style="clear: both;"></div>
+            </div>
+            <div id="bottom-dots"></div>
+        </div>
+        <div id="footer">
+    <div id="footer-inner">
+        <div id="copyright">
+            <p>&copy; 2005-2026</p>
+            <p>Bienmoyo Foundation</p>
+            
+            <p id="credits">
+                <span class="veryfaint">--</span>design <a href="http://lushenwu.com" class="internal">lushenwu</a><br />
+                <span class="veryfaint">--</span>production <a href="http://savantcoding.com" class="internal">philipramirez</a>
+            </p>
+        </div>
+        <div class="qlinks">
+            <div class="section">
+                <ul>
+                    <li class="header">
+                        <a href="/services/">Services</a>
+                    </li>
+                    <li><a href="/services/ncd/">NCDs</a></li>
+                    <li><a href="/services/education/">Education</a></li>
+                    <li><a href="/services/equipment-and-supplies/">Equipment and Supplies</a></li>
+                    <li><a href="/services/health-planning/">Health Planning</a></li>
+                    <li><a href="/services/impact-assessments/">Impact Assessments</a></li>
+                </ul>
+            </div>
+            <div class="section">
+                <ul>
+                    <li class="header">
+                        <a href="/portfolio/">Project Areas</a>
+                    </li>
+                    <li><a href="/portfolio/mnch/">Maternal, Neonatal and Child Health</a></li>
+                    <li><a href="/portfolio/cardiology/">Cardiology and RHD</a></li>
+                    <!--<li><a href="/portfolio/malaria-hiv/">Malaria and HIV</a></li>-->
+                    <!--<li><a href="/portfolio/diabetes-ncd/">Diabetes and NCDs</a></li>-->
+                    <li><a href="/portfolio/poc-diagnostics/">Point of Care Diagnostics</a></li>
+                    <li><a href="/portfolio/private-sector/">Private Health Sector</a></li>
+                    <li><a href="/portfolio/training/">Training</a></li>
+                    <li><a href="/get-involved/internships/">Internships</a></li>
+                </ul>
+            </div>
+            <div class="section regions last">
+                <ul>
+                    <li class="header">
+                        <a href="#">Regions</a>
+                    </li>
+                    <li class="region first">Tanzania:</li>
+                    <li><a href="#">Dar es Salaam</a></li>
+                    <li><a href="#">Manyara</a></li>
+                    <li><a href="#">Lindi</a></li>
+
+                    <li class="region">Kenya:</li>
+                    <li><a href="#">Nairobi</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+    </body>
+</html>
